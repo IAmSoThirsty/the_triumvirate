@@ -12,7 +12,7 @@ A comprehensive manifesto and architectural framework for shaping the future of 
 [![Built with Tailwind CSS](https://img.shields.io/badge/Built_with-Tailwind_CSS-38B2AC?logo=tailwind-css)](https://tailwindcss.com)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
-[Live Website](https://thirstysprojects.com) • [System Audit](./SYSTEM_AUDIT.md) • [Documentation](#-project-structure)
+[System Audit](./SYSTEM_AUDIT.md) • [Documentation](#-project-structure) • [Quick Start](#-quick-start)
 
 </div>
 
@@ -181,6 +181,15 @@ The project uses Tailwind CSS with custom configuration:
 1. Source: `css/tailwind.css`
 2. Config: `tailwind.config.js`
 3. Output: `css/main.css` (generated)
+
+### Deployment
+
+This project is designed to be deployed as a static website. It's currently configured for deployment via:
+- **Rocket.new** - Primary deployment platform (as indicated in the HTML files)
+- **Apache Server** - Uses `.htaccess` for clean URLs
+- Any static hosting service (GitHub Pages, Netlify, Vercel, etc.)
+
+The site is referenced throughout as **ThirstysProjects.com** - update the deployment URL as needed for your specific hosting environment.
 
 ---
 

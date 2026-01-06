@@ -1,0 +1,18 @@
+# robots.txt for The Triumvirate
+# https://thirstysprojects.com
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://thirstysprojects.com/sitemap.xml
+
+# Disallow admin or temporary directories if they exist
+Disallow: /tmp/
+Disallow: /.git/
+
+# Allow all pages
+Allow: /pages/
+Allow: /css/
+Allow: /assets/
+Allow: /public/

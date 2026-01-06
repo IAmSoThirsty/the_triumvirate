@@ -1,4 +1,29 @@
-.DS_Store
+# Dependencies
 node_modules
+
+# Build outputs
+css/main.css
+
+# IDE
 .idea
+.vscode
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Package manager
 package-lock.json
+yarn.lock
+
+# Temporary files
+/tmp/
+*.log
+*.tmp
+
+# Environment variables
+.env
+.env.local

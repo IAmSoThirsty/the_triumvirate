@@ -1,7 +1,7 @@
 {
   "name": "the-triumvirate",
   "version": "1.0.0",
-  "description": "",
+  "description": "A comprehensive manifesto and architectural framework exploring the intersection of AI, Humanity, and Technology through ethical AI development, robust security, and transparent knowledge systems.",
   "main": "index.html",
   "dependencies": {
     "@dhiwise/component-tagger": "^1.0.14",
@@ -15,7 +15,7 @@
     "watch:css": "npx @dhiwise/component-tagger && npx tailwindcss -i ./css/tailwind.css -o ./css/main.css --watch",
     "dev": "npm run watch:css"
   },
-  "author": "",
+  "author": "Jeremy Karrick (Thirsty) <thirstysprojects.com>",
   "license": "MIT",
   "devDependencies": {
     "tailwindcss": "^3.4.17",

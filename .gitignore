@@ -3,6 +3,11 @@ node_modules
 
 # Build outputs
 css/main.css
+public/dhws-data-injector.js
+
+# Test coverage
+coverage/
+*.coverage
 
 # IDE
 .idea

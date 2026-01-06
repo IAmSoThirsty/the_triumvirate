@@ -4,7 +4,7 @@ Thank you for your interest in contributing to The Triumvirate! This document pr
 
 ## 🤝 Code of Conduct
 
-We are committed to providing a welcoming and inspiring community for all. Please be respectful and constructive in all interactions.
+We are committed to providing a welcoming and inspiring community for all. Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a respectful and constructive environment for everyone.
 
 ## 🚀 Getting Started
 
@@ -171,18 +171,29 @@ npm run watch:css
 
 # Start development mode
 npm run dev
+
+# Run tests
+npm test
+
+# Run tests in watch mode
+npm run test:watch
+
+# Run tests with coverage report
+npm run test:coverage
 ```
 
 ### Testing Your Changes
 
 Before submitting a PR:
-1. ✅ Test on multiple browsers (Chrome, Firefox, Safari, Edge)
-2. ✅ Test on multiple devices (desktop, tablet, mobile)
-3. ✅ Verify accessibility features work
-4. ✅ Check keyboard navigation
-5. ✅ Ensure no console errors
-6. ✅ Build CSS and verify no issues
-7. ✅ Review visual appearance matches design system
+1. ✅ Run the test suite with `npm test` and ensure all tests pass
+2. ✅ Add tests for any new functionality
+3. ✅ Test on multiple browsers (Chrome, Firefox, Safari, Edge)
+4. ✅ Test on multiple devices (desktop, tablet, mobile)
+5. ✅ Verify accessibility features work
+6. ✅ Check keyboard navigation
+7. ✅ Ensure no console errors
+8. ✅ Build CSS and verify no issues
+9. ✅ Review visual appearance matches design system
 
 ## 📝 Commit Message Guidelines
 

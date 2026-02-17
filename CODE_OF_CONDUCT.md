@@ -50,6 +50,7 @@ For answers to common questions about this code of conduct, see https://www.cont
 ## Contact
 
 If you have questions or concerns about this Code of Conduct, please:
+
 - Open an issue in the repository
 - Contact the project maintainers through appropriate channels
 

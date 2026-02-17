@@ -2,21 +2,19 @@
 
 <div align="center">
 
-![The Triumvirate Banner](https://img.shields.io/badge/The_Triumvirate-AI_×_Humanity_×_Technology-0891B2?style=for-the-badge)
+![The Triumvirate Banner](https://img.shields.io/badge/The_Triumvirate-AI_%C3%97_Humanity_%C3%97_Technology-0891B2?style=for-the-badge)
 
 **Exploring the Trinity of AI, Humanity & Technology**
 
 A comprehensive manifesto and architectural framework for shaping the future of AGI-Human relations through ethical AI development, robust security, and transparent knowledge systems.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Built with Tailwind CSS](https://img.shields.io/badge/Built_with-Tailwind_CSS-38B2AC?logo=tailwind-css)](https://tailwindcss.com)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Built with Tailwind CSS](https://img.shields.io/badge/Built_with-Tailwind_CSS-38B2AC?logo=tailwind-css)](https://tailwindcss.com) [![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
 [System Audit](./SYSTEM_AUDIT.md) • [Documentation](#-project-structure) • [Quick Start](#-quick-start)
 
 </div>
 
----
+______________________________________________________________________
 
 ## 📖 About The Triumvirate
 
@@ -25,21 +23,24 @@ A comprehensive manifesto and architectural framework for shaping the future of 
 ### The Trinity 🔺
 
 1. **Project AI (Cognitive Engine)** 🧠
+
    - Adaptive cognitive architecture with ethical frameworks
    - Context-aware memory systems and learning architecture
    - Real-time decision-making with moral reasoning
 
-2. **Cerberus (Security Fortress)** 🛡️
+1. **Cerberus (Security Fortress)** 🛡️
+
    - Multi-layered security architecture
    - Threat detection and response systems
    - Privacy-first design with quantum-resistant encryption
 
-3. **Codex Deus Maximus (Knowledge Repository)** 📚
+1. **Codex Deus Maximus (Knowledge Repository)** 📚
+
    - Distributed knowledge architecture
    - Version-controlled ethical guidelines
    - Transparent decision-making processes
 
----
+______________________________________________________________________
 
 ## ✨ Key Features
 
@@ -51,7 +52,7 @@ A comprehensive manifesto and architectural framework for shaping the future of 
 - 🌐 **Progressive Enhancement** - Works across all modern browsers
 - 🚀 **Performance Optimized** - Fast loading with minimal dependencies
 
----
+______________________________________________________________________
 
 ## 🚀 Quick Start
 
@@ -64,32 +65,37 @@ A comprehensive manifesto and architectural framework for shaping the future of 
 ### Installation
 
 1. **Clone the repository**
+
 ```bash
 git clone https://github.com/IAmSoThirsty/the_triumvirate.git
 cd the_triumvirate
 ```
 
 2. **Install dependencies**
+
 ```bash
 npm install
 ```
 
 3. **Build CSS assets**
+
 ```bash
 npm run build:css
 ```
 
 4. **Start development server**
+
 ```bash
 npm run dev
 ```
 
 5. **Open in browser**
+
 ```
 Open index.html in your browser or use a local server
 ```
 
----
+______________________________________________________________________
 
 ## 📁 Project Structure
 
@@ -121,7 +127,7 @@ the_triumvirate/
 └── 📄 README.md                           # This file
 ```
 
----
+______________________________________________________________________
 
 ## 🎨 Design System
 
@@ -150,20 +156,24 @@ The Triumvirate uses a carefully crafted "Neural Depth Palette":
 - `xl`: 1280px and up
 - `2xl`: 1536px and up
 
----
+______________________________________________________________________
 
 ## 🛠️ Development
 
 ### Available Scripts
 
 ```bash
+
 # Build CSS for production
+
 npm run build:css
 
 # Watch CSS changes during development
+
 npm run watch:css
 
 # Start development mode (watch CSS)
+
 npm run dev
 ```
 
@@ -178,38 +188,40 @@ npm run dev
 ### Build Process
 
 The project uses Tailwind CSS with custom configuration:
+
 1. Source: `css/tailwind.css`
-2. Config: `tailwind.config.js`
-3. Output: `css/main.css` (generated)
+1. Config: `tailwind.config.js`
+1. Output: `css/main.css` (generated)
 
 ### Deployment
 
 This project is designed to be deployed as a static website. It's currently configured for deployment via:
+
 - **Rocket.new** - Primary deployment platform (as indicated in the HTML files)
 - **Apache Server** - Uses `.htaccess` for clean URLs
 - Any static hosting service (GitHub Pages, Netlify, Vercel, etc.)
 
 The site is referenced throughout as **ThirstysProjects.com** - update the deployment URL as needed for your specific hosting environment.
 
----
+______________________________________________________________________
 
 ## 📄 Pages Overview
 
-| Page | Purpose | Key Features |
-|------|---------|--------------|
-| **index.html** | Landing/splash screen | Auto-redirect, loading animation |
-| **manifesto_gateway.html** | Main hub | Philosophy, vision, navigation |
-| **trinity_deep_dive.html** | Technical details | Architecture diagrams, system specs |
-| **project_ai_cognitive_engine.html** | AI system | Cognitive architecture, ethics |
-| **cerberus_security_fortress.html** | Security | Multi-layer security framework |
-| **codex_deus_maximus_repository.html** | Knowledge base | Distributed architecture |
-| **scenario_demonstrations.html** | Use cases | Interactive demos, case studies |
-| **research_center.html** | Resources | Research, papers, references |
-| **future_architectures.html** | Roadmap | Future vision, development plans |
-| **trust_transparency_center.html** | Trust hub | Transparency, accountability |
-| **jeremy_karrick_founder_profile.html** | About | Founder information |
+| Page                                    | Purpose               | Key Features                        |
+| --------------------------------------- | --------------------- | ----------------------------------- |
+| **index.html**                          | Landing/splash screen | Auto-redirect, loading animation    |
+| **manifesto_gateway.html**              | Main hub              | Philosophy, vision, navigation      |
+| **trinity_deep_dive.html**              | Technical details     | Architecture diagrams, system specs |
+| **project_ai_cognitive_engine.html**    | AI system             | Cognitive architecture, ethics      |
+| **cerberus_security_fortress.html**     | Security              | Multi-layer security framework      |
+| **codex_deus_maximus_repository.html**  | Knowledge base        | Distributed architecture            |
+| **scenario_demonstrations.html**        | Use cases             | Interactive demos, case studies     |
+| **research_center.html**                | Resources             | Research, papers, references        |
+| **future_architectures.html**           | Roadmap               | Future vision, development plans    |
+| **trust_transparency_center.html**      | Trust hub             | Transparency, accountability        |
+| **jeremy_karrick_founder_profile.html** | About                 | Founder information                 |
 
----
+______________________________________________________________________
 
 ## ♿ Accessibility Features
 
@@ -222,7 +234,7 @@ The site is referenced throughout as **ThirstysProjects.com** - update the deplo
 - ✅ High contrast text
 - ✅ Responsive font sizing
 
----
+______________________________________________________________________
 
 ## 🔒 Security
 
@@ -231,7 +243,7 @@ The site is referenced throughout as **ThirstysProjects.com** - update the deplo
 - No sensitive data in client-side code
 - Secure external resource loading
 
----
+______________________________________________________________________
 
 ## 🌐 Browser Support
 
@@ -241,7 +253,7 @@ The site is referenced throughout as **ThirstysProjects.com** - update the deplo
 - Edge (latest)
 - Mobile browsers (iOS Safari, Chrome Mobile)
 
----
+______________________________________________________________________
 
 ## 📈 Performance
 
@@ -251,27 +263,28 @@ The site is referenced throughout as **ThirstysProjects.com** - update the deplo
 - Progressive enhancement
 - Clean semantic HTML
 
----
+______________________________________________________________________
 
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
----
+______________________________________________________________________
 
 ## 📜 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
----
+______________________________________________________________________
 
 ## 👤 Author
 
 **Thirsty (Jeremy Karrick)**
+
 - Website: [ThirstysProjects.com](https://thirstysprojects.com)
 - GitHub: [@IAmSoThirsty](https://github.com/IAmSoThirsty)
 
----
+______________________________________________________________________
 
 ## 🙏 Acknowledgments
 
@@ -280,7 +293,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Typography by [Google Fonts](https://fonts.google.com)
 - Icons and graphics created in-house
 
----
+______________________________________________________________________
 
 ## 📊 Project Stats
 
@@ -290,7 +303,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **Build Time**: < 2 seconds
 - **Bundle Size**: ~79KB CSS (compiled)
 
----
+______________________________________________________________________
 
 <div align="center">
 

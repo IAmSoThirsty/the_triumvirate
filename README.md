@@ -64,27 +64,32 @@ A comprehensive manifesto and architectural framework for shaping the future of 
 ### Installation
 
 1. **Clone the repository**
+
 ```bash
 git clone https://github.com/IAmSoThirsty/the_triumvirate.git
 cd the_triumvirate
 ```
 
 2. **Install dependencies**
+
 ```bash
 npm install
 ```
 
 3. **Build CSS assets**
+
 ```bash
 npm run build:css
 ```
 
 4. **Start development server**
+
 ```bash
 npm run dev
 ```
 
 5. **Open in browser**
+
 ```
 Open index.html in your browser or use a local server
 ```
@@ -157,13 +162,17 @@ The Triumvirate uses a carefully crafted "Neural Depth Palette":
 ### Available Scripts
 
 ```bash
+
 # Build CSS for production
+
 npm run build:css
 
 # Watch CSS changes during development
+
 npm run watch:css
 
 # Start development mode (watch CSS)
+
 npm run dev
 ```
 
@@ -178,6 +187,7 @@ npm run dev
 ### Build Process
 
 The project uses Tailwind CSS with custom configuration:
+
 1. Source: `css/tailwind.css`
 2. Config: `tailwind.config.js`
 3. Output: `css/main.css` (generated)
@@ -185,6 +195,7 @@ The project uses Tailwind CSS with custom configuration:
 ### Deployment
 
 This project is designed to be deployed as a static website. It's currently configured for deployment via:
+
 - **Rocket.new** - Primary deployment platform (as indicated in the HTML files)
 - **Apache Server** - Uses `.htaccess` for clean URLs
 - Any static hosting service (GitHub Pages, Netlify, Vercel, etc.)
@@ -268,6 +279,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 👤 Author
 
 **Thirsty (Jeremy Karrick)**
+
 - Website: [ThirstysProjects.com](https://thirstysprojects.com)
 - GitHub: [@IAmSoThirsty](https://github.com/IAmSoThirsty)
 

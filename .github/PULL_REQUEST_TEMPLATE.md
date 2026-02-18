@@ -1,9 +1,11 @@
 ## Description
+
 **Please include a summary of the changes and which issue is fixed. Include relevant motivation and context.**
 
 Fixes #(issue)
 
 ## Type of Change
+
 **Please delete options that are not relevant.**
 
 - [ ] Bug fix (non-breaking change which fixes an issue)
@@ -15,13 +17,15 @@ Fixes #(issue)
 - [ ] Dependency update
 
 ## Changes Made
+
 **List the specific changes made in this PR:**
 
-- 
-- 
-- 
+-
+-
+-
 
 ## Testing
+
 **Describe the tests you ran to verify your changes:**
 
 - [ ] All existing tests pass
@@ -32,14 +36,17 @@ Fixes #(issue)
 - [ ] Tested screen reader compatibility
 
 ### Test Configuration
-* Browser(s): 
-* OS: 
-* Device(s): 
+
+* Browser(s):
+* OS:
+* Device(s):
 
 ## Screenshots
+
 **If applicable, add screenshots to demonstrate the changes:**
 
 ## Checklist
+
 **Before submitting your PR, please review and check the following:**
 
 - [ ] My code follows the style guidelines of this project
@@ -56,6 +63,7 @@ Fixes #(issue)
 - [ ] I have updated the CHANGELOG.md (if applicable)
 
 ## Accessibility
+
 **Please confirm accessibility considerations:**
 
 - [ ] Semantic HTML used
@@ -66,12 +74,15 @@ Fixes #(issue)
 - [ ] Focus indicators visible
 
 ## Breaking Changes
+
 **List any breaking changes and migration steps (if applicable):**
 
 ## Additional Notes
+
 **Add any additional notes, concerns, or context here:**
 
 ## Related Issues/PRs
+
 **Link any related issues or pull requests:**
 
 - Related to #
@@ -81,6 +92,7 @@ Fixes #(issue)
 ---
 
 ### For Reviewers
+
 - [ ] Code reviewed for quality and style
 - [ ] Changes tested locally
 - [ ] Documentation reviewed

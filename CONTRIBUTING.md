@@ -19,32 +19,40 @@ We are committed to providing a welcoming and inspiring community for all. Pleas
 ### Setting Up Your Development Environment
 
 1. **Fork the repository**
+
    ```bash
+
    # Click the "Fork" button on GitHub
+
    ```
 
 2. **Clone your fork**
+
    ```bash
    git clone https://github.com/YOUR_USERNAME/the_triumvirate.git
    cd the_triumvirate
    ```
 
 3. **Add upstream remote**
+
    ```bash
    git remote add upstream https://github.com/IAmSoThirsty/the_triumvirate.git
    ```
 
 4. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 5. **Start development server**
+
    ```bash
    npm run dev
    ```
 
 6. **Open in browser**
+
    ```
    Open index.html in your browser or use a local server
    ```
@@ -54,6 +62,7 @@ We are committed to providing a welcoming and inspiring community for all. Pleas
 ### Reporting Bugs
 
 If you find a bug, please create an issue with:
+
 - Clear, descriptive title
 - Steps to reproduce the bug
 - Expected behavior
@@ -64,6 +73,7 @@ If you find a bug, please create an issue with:
 ### Suggesting Enhancements
 
 Enhancement suggestions are welcome! Please create an issue with:
+
 - Clear, descriptive title
 - Detailed description of the proposed feature
 - Rationale for why this enhancement would be useful
@@ -72,9 +82,12 @@ Enhancement suggestions are welcome! Please create an issue with:
 ### Pull Requests
 
 1. **Create a branch**
+
    ```bash
    git checkout -b feature/your-feature-name
+
    # or
+
    git checkout -b fix/your-bug-fix
    ```
 
@@ -85,12 +98,14 @@ Enhancement suggestions are welcome! Please create an issue with:
    - Update documentation if needed
 
 3. **Commit your changes**
+
    ```bash
    git add .
    git commit -m "Add descriptive commit message"
    ```
 
 4. **Push to your fork**
+
    ```bash
    git push origin feature/your-feature-name
    ```
@@ -107,6 +122,7 @@ Enhancement suggestions are welcome! Please create an issue with:
 ### Code Style
 
 #### HTML
+
 - Use semantic HTML5 elements
 - Include proper ARIA labels for accessibility
 - Maintain consistent indentation (2 spaces)
@@ -114,6 +130,7 @@ Enhancement suggestions are welcome! Please create an issue with:
 - Keep accessibility in mind (skip links, keyboard navigation, screen reader support)
 
 #### CSS (Tailwind)
+
 - Use Tailwind utility classes when possible
 - Follow the existing design system (Neural Depth palette)
 - Add custom utilities to `tailwind.config.js` if needed
@@ -121,6 +138,7 @@ Enhancement suggestions are welcome! Please create an issue with:
 - Test on multiple screen sizes
 
 #### JavaScript
+
 - Use modern ES6+ syntax
 - Keep inline scripts minimal
 - Add comments for complex logic
@@ -130,6 +148,7 @@ Enhancement suggestions are welcome! Please create an issue with:
 ### Accessibility Requirements
 
 All contributions must maintain WCAG 2.1 Level AA compliance:
+
 - ✅ Semantic HTML structure
 - ✅ ARIA labels where appropriate
 - ✅ Keyboard navigation support
@@ -143,6 +162,7 @@ All contributions must maintain WCAG 2.1 Level AA compliance:
 Follow the established design system:
 
 **Colors (Neural Depth Palette)**
+
 - Primary: `#1E3A8A` (blue-900)
 - Secondary: `#0891B2` (cyan-600)
 - Accent: `#06B6D4` (cyan-500)
@@ -150,12 +170,14 @@ Follow the established design system:
 - Text: `#F8FAFC` (slate-50)
 
 **Typography**
+
 - Headlines: JetBrains Mono
 - Body: Inter
 - CTAs: Space Grotesk
 - Code: Fira Code
 
 **Spacing & Layout**
+
 - Use Tailwind's spacing scale
 - Mobile-first responsive approach
 - Consistent breakpoints (sm, md, lg, xl, 2xl)
@@ -163,28 +185,36 @@ Follow the established design system:
 ### Build Commands
 
 ```bash
+
 # Build CSS for production
+
 npm run build:css
 
 # Watch CSS changes during development
+
 npm run watch:css
 
 # Start development mode
+
 npm run dev
 
 # Run tests
+
 npm test
 
 # Run tests in watch mode
+
 npm run test:watch
 
 # Run tests with coverage report
+
 npm run test:coverage
 ```
 
 ### Testing Your Changes
 
 Before submitting a PR:
+
 1. ✅ Run the test suite with `npm test` and ensure all tests pass
 2. ✅ Add tests for any new functionality
 3. ✅ Test on multiple browsers (Chrome, Firefox, Safari, Edge)
@@ -207,9 +237,11 @@ Include motivation and context.
 
 - Bullet points for multiple changes
 - Reference issues with #issue-number
+
 ```
 
 **Examples:**
+
 - `Add: XML sitemap for SEO optimization`
 - `Fix: Mobile menu toggle not working on iOS`
 - `Update: Accessibility improvements for screen readers`
@@ -228,6 +260,7 @@ Include motivation and context.
 ### Adding New Pages
 
 If adding a new page:
+
 1. Create HTML file in `/pages/` directory
 2. Follow existing page structure
 3. Update navigation in all relevant pages
@@ -257,6 +290,7 @@ If adding a new page:
 ## 📚 Documentation Contributions
 
 Documentation improvements are always welcome:
+
 - Fix typos or unclear wording
 - Add examples or tutorials
 - Improve README clarity
@@ -266,6 +300,7 @@ Documentation improvements are always welcome:
 ## 🔍 Code Review Process
 
 All PRs will be reviewed for:
+
 - Code quality and style
 - Functionality and correctness
 - Accessibility compliance
@@ -282,6 +317,7 @@ By contributing, you agree that your contributions will be licensed under the MI
 ## 💬 Questions?
 
 If you have questions:
+
 - Check existing issues and discussions
 - Create a new issue with the "question" label
 - Reach out to maintainers

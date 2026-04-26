@@ -63,7 +63,7 @@ A comprehensive manifesto and architectural framework for shaping the future of 
 
 ### Prerequisites
 
-- Node.js (v12.x or higher)
+- Node.js (v20.x recommended)
 - npm or yarn
 - A modern web browser
 
@@ -88,16 +88,22 @@ npm install
 npm run build:css
 ```
 
-4. **Start development server**
+4. **Run verification tests**
 
 ```bash
-npm run dev
+npm run validate
 ```
 
-5. **Open in browser**
+5. **Start local server**
+
+```bash
+npm run serve
+```
+
+6. **Open in browser**
 
 ```
-Open index.html in your browser or use a local server
+Open http://localhost:8080/the_triumvirate/
 ```
 
 ---
@@ -169,6 +175,30 @@ The Triumvirate uses a carefully crafted "Neural Depth Palette":
 
 ```bash
 
+# Run core unit tests
+
+npm test
+
+# Run static integration checks
+
+npm run test:integration
+
+# Run all required checks before deploy
+
+npm run validate
+
+# List available meta-tag templates
+
+npm run meta:list
+
+# Generate meta tags for a specific page key
+
+npm run meta:generate -- --page manifesto
+
+# Run Lighthouse CI profile locally
+
+npm run test:lighthouse
+
 # Build CSS for production
 
 npm run build:css
@@ -180,6 +210,10 @@ npm run watch:css
 # Start development mode (watch CSS)
 
 npm run dev
+
+# Run static local server
+
+npm run serve
 ```
 
 ### Technologies Used
@@ -200,13 +234,21 @@ The project uses Tailwind CSS with custom configuration:
 
 ### Deployment
 
-This project is designed to be deployed as a static website. It's currently configured for deployment via:
+This project is configured for **GitHub Pages via GitHub Actions**.
 
-- **Rocket.new** - Primary deployment platform (as indicated in the HTML files)
-- **Apache Server** - Uses `.htaccess` for clean URLs
-- Any static hosting service (GitHub Pages, Netlify, Vercel, etc.)
+- CI workflow: `.github/workflows/nodejs.yml`
+- Deploy workflow: `.github/workflows/deploy-pages.yml`
+- Production base URL: `https://iamsothirsty.github.io/the_triumvirate/`
 
-The site is referenced throughout as **ThirstysProjects.com** - update the deployment URL as needed for your specific hosting environment.
+Deploys are automatically triggered on pushes to `main` after tests pass.
+
+For advanced deployment hardening and release checks, see:
+
+- `DEPLOYMENT.md`
+- `PRODUCTION_CHECKLIST.md`
+- `SECURITY.md`
+- `PERFORMANCE_BUDGET.md`
+- `assets/images/SOCIAL_IMAGES.md`
 
 ---
 

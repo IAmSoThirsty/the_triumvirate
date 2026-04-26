@@ -5,6 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Thirsty's Projects Manifesto - Shaping the way forward for AGI/Human relations through Project AI, Cerberus, and Codex Deus Maximus">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Manifesto Gateway | The Triumvirate">
+    <meta property="og:description" content="Thirsty's Projects Manifesto - Shaping the way forward for AGI/Human relations through Project AI, Cerberus, and Codex Deus Maximus">
+    <meta property="og:url" content="https://iamsothirsty.github.io/the_triumvirate/pages/manifesto_gateway.html">
+    <meta property="og:image" content="https://iamsothirsty.github.io/the_triumvirate/assets/images/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Manifesto Gateway | The Triumvirate">
+    <meta name="twitter:description" content="Thirsty's Projects Manifesto - Shaping the way forward for AGI/Human relations through Project AI, Cerberus, and Codex Deus Maximus">
+    <meta name="twitter:image" content="https://iamsothirsty.github.io/the_triumvirate/assets/images/twitter-card.png">
+    <link rel="canonical" href="https://iamsothirsty.github.io/the_triumvirate/pages/manifesto_gateway.html">
     <title>Manifesto Gateway | ThirstysProjects.com</title>
     <link rel="stylesheet" href="css/main.css">
   <style>
@@ -48,6 +59,7 @@
         left: 50%;
         transform: translate(-50%, -50%) scale(0.9);
         background: rgba(15, 23, 42, 0.98);
+        -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
         color: #F8FAFC;
         padding: 2rem;
@@ -164,6 +176,18 @@
         animation: pulse-glow 3s ease-in-out infinite;
     }
 
+    .trinity-map-container {
+        height: 600px;
+    }
+
+    .trinity-map-lines {
+        z-index: 1;
+    }
+
+    .trinity-node-layer {
+        z-index: 10;
+    }
+
     @keyframes pulse-glow {
         0%, 100% {
             box-shadow: 0 0 20px rgba(8, 145, 178, 0.3);
@@ -195,7 +219,6 @@
     /* Hide scrollbar for navigation */
     .scrollbar-hide {
         -ms-overflow-style: none;
-        scrollbar-width: none;
     }
     
     .scrollbar-hide::-webkit-scrollbar {
@@ -243,6 +266,7 @@
         position: fixed;
         inset: 0;
         background: rgba(15, 23, 42, 0.85);
+        -webkit-backdrop-filter: blur(8px);
         backdrop-filter: blur(8px);
         z-index: 9997;
         opacity: 0;
@@ -423,6 +447,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         background: rgba(255, 255, 255, 0.98);
+        -webkit-backdrop-filter: blur(12px);
         backdrop-filter: blur(12px);
         border: 2px solid rgba(8, 145, 178, 0.3);
         border-radius: 16px;
@@ -715,7 +740,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-20">
             <!-- Logo -->
-            <a href="../index.html" class="flex items-center space-x-3 group" aria-label="ThirstysProjects.com Home">
+            <a href="index.html" class="flex items-center space-x-3 group" aria-label="ThirstysProjects.com Home">
                 <svg class="w-10 h-10 transition-transform duration-300 group-hover:scale-110" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M20 5L35 15V25L20 35L5 25V15L20 5Z" stroke="url(#logo-gradient)" stroke-width="2" fill="none"/>
                     <circle cx="20" cy="20" r="6" fill="url(#logo-gradient)" opacity="0.6"/>
@@ -892,7 +917,7 @@
         <!-- Project AI Architecture Diagram -->
         <div class="mb-16 max-w-4xl mx-auto">
             <div class="card-elevated">
-                <img src="../assets/images/tmponrptw4m-1766462626908.jpg" 
+                <img src="assets/images/tmponrptw4m-1766462626908.jpg" 
                      alt="Inside Project AI: The Anatomy of a Secure Desktop Assistant - showing AI core engine with ethical framework, autonomous learning system, and human-in-the-loop control" 
                      class="w-full h-auto rounded-lg shadow-lg">
                 <div class="mt-4 p-4 bg-primary-50 rounded-lg">
@@ -906,7 +931,7 @@
 
         <div class="grid md:grid-cols-3 gap-8">
             <!-- Project AI - Enhanced -->
-            <a href="project_ai_cognitive_engine.html" class="card-elevated group hover:shadow-glow-primary cursor-pointer animate-slide-up">
+            <a href="project_ai_cognitive_engine.html" title="Open Project AI Cognitive Engine" aria-label="Open Project AI Cognitive Engine" class="card-elevated group hover:shadow-glow-primary cursor-pointer animate-slide-up">
                 <div class="mb-6">
                     <div class="w-16 h-16 bg-gradient-to-br from-primary to-primary-700 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
                         <svg class="w-8 h-8 text-text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -968,7 +993,7 @@
             </a>
 
             <!-- Cerberus - Enhanced -->
-            <a href="cerberus_security_fortress.html" class="card-elevated group hover:shadow-glow-secondary cursor-pointer animate-slide-up stagger-delay-1">
+            <a href="cerberus_security_fortress.html" title="Open Cerberus Security Fortress" aria-label="Open Cerberus Security Fortress" class="card-elevated group hover:shadow-glow-secondary cursor-pointer animate-slide-up stagger-delay-1">
                 <div class="mb-6">
                     <div class="w-16 h-16 bg-gradient-to-br from-secondary to-secondary-700 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
                         <svg class="w-8 h-8 text-text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -1026,7 +1051,7 @@
             </a>
 
             <!-- Codex Deus Maximus - Enhanced -->
-            <a href="codex_deus_maximus_repository.html" class="card-elevated group hover:shadow-glow-accent cursor-pointer animate-slide-up stagger-delay-2">
+            <a href="codex_deus_maximus_repository.html" title="Open Codex Deus Maximus Repository" aria-label="Open Codex Deus Maximus Repository" class="card-elevated group hover:shadow-glow-accent cursor-pointer animate-slide-up stagger-delay-2">
                 <div class="mb-6">
                     <div class="w-16 h-16 bg-gradient-to-br from-accent to-accent-dark rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
                         <svg class="w-8 h-8 text-background" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -1135,9 +1160,9 @@
             </div>
 
             <!-- Trinity Nodes Container -->
-            <div class="relative" style="height: 600px;">
+            <div class="relative trinity-map-container">
                 <!-- Connecting Lines -->
-                <svg class="absolute inset-0 w-full h-full" style="z-index: 1;">
+                <svg class="absolute inset-0 w-full h-full trinity-map-lines">
                     <defs>
                         <linearGradient id="line-gradient-1" x1="0%" y1="0%" x2="100%" y2="0%">
                             <stop offset="0%" stop-color="#1E3A8A" stop-opacity="0.6"/>
@@ -1175,7 +1200,7 @@
                 </svg>
 
                 <!-- Project AI Node - Top -->
-                <a href="project_ai_cognitive_engine.html" class="trinity-node absolute top-0 left-1/2 transform -translate-x-1/2 group" style="z-index: 10;">
+                <a href="project_ai_cognitive_engine.html" class="trinity-node trinity-node-layer absolute top-0 left-1/2 transform -translate-x-1/2 group">
                     <div class="card-elevated hover:shadow-glow-primary transition-all duration-300 p-6 w-64 bg-gradient-to-br from-primary-50 to-background border-2 border-primary-300">
                         <div class="flex items-center justify-between mb-4">
                             <div class="w-12 h-12 bg-gradient-to-br from-primary to-primary-700 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -1203,7 +1228,7 @@
                 </a>
 
                 <!-- Cerberus Node - Bottom Left -->
-                <a href="cerberus_security_fortress.html" class="trinity-node absolute bottom-0 left-0 group" style="z-index: 10;">
+                <a href="cerberus_security_fortress.html" class="trinity-node trinity-node-layer absolute bottom-0 left-0 group">
                     <div class="card-elevated hover:shadow-glow-secondary transition-all duration-300 p-6 w-64 bg-gradient-to-br from-secondary-50 to-background border-2 border-secondary-300">
                         <div class="flex items-center justify-between mb-4">
                             <div class="w-12 h-12 bg-gradient-to-br from-secondary to-secondary-700 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -1231,7 +1256,7 @@
                 </a>
 
                 <!-- Codex Deus Maximus Node - Bottom Right -->
-                <a href="codex_deus_maximus_repository.html" class="trinity-node absolute bottom-0 right-0 group" style="z-index: 10;">
+                <a href="codex_deus_maximus_repository.html" class="trinity-node trinity-node-layer absolute bottom-0 right-0 group">
                     <div class="card-elevated hover:shadow-glow-accent transition-all duration-300 p-6 w-64 bg-gradient-to-br from-accent-light to-background border-2 border-accent">
                         <div class="flex items-center justify-between mb-4">
                             <div class="w-12 h-12 bg-gradient-to-br from-accent to-accent-dark rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -2084,7 +2109,7 @@
                     <div class="flex-shrink-0">
                         <div class="relative">
                             <div class="absolute inset-0 bg-gradient-to-br from-primary to-accent rounded-full blur-lg opacity-30 transform scale-110"></div>
-                            <img src="../assets/images/feff32e3-b148-4ff7-9f61-ca16450d376e-1_all_261-1766563232413.jpg" 
+                            <img src="assets/images/feff32e3-b148-4ff7-9f61-ca16450d376e-1_all_261-1766563232413.jpg" 
                                  alt="Jeremy Karrick - Founder of Thirsty's Projects" 
                                  class="relative w-48 h-48 rounded-full object-cover shadow-xl border-4 border-background">
                         </div>
@@ -2339,17 +2364,17 @@
                     Shaping the way forward for AGI/Human relations through the triumvirate: three intermingled programs—confluent consciousness, adaptive security, and institutional memory—becoming one.
                 </p>
                 <div class="flex space-x-4">
-                    <a href="javascript:void(0)" class="w-10 h-10 bg-surface-light rounded-lg flex items-center justify-center hover:bg-primary transition-colors">
+                    <a href="https://twitter.com/ThirstysProjects" target="_blank" rel="noopener noreferrer" aria-label="Visit ThirstysProjects on X (Twitter)" title="ThirstysProjects on X (Twitter)" class="w-10 h-10 bg-surface-light rounded-lg flex items-center justify-center hover:bg-primary transition-colors">
                         <svg class="w-5 h-5 text-text-secondary" fill="currentColor" viewBox="0 0 24 24">
                             <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
                         </svg>
                     </a>
-                    <a href="javascript:void(0)" class="w-10 h-10 bg-surface-light rounded-lg flex items-center justify-center hover:bg-primary transition-colors">
+                    <a href="https://github.com/IAmSoThirsty" target="_blank" rel="noopener noreferrer" aria-label="Visit ThirstysProjects on GitHub" title="ThirstysProjects on GitHub" class="w-10 h-10 bg-surface-light rounded-lg flex items-center justify-center hover:bg-primary transition-colors">
                         <svg class="w-5 h-5 text-text-secondary" fill="currentColor" viewBox="0 0 24 24">
                             <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
                         </svg>
                     </a>
-                    <a href="javascript:void(0)" class="w-10 h-10 bg-surface-light rounded-lg flex items-center justify-center hover:bg-primary transition-colors">
+                    <a href="jeremy_karrick_founder_profile.html" aria-label="View founder profile" title="Founder profile" class="w-10 h-10 bg-surface-light rounded-lg flex items-center justify-center hover:bg-primary transition-colors">
                         <svg class="w-5 h-5 text-text-secondary" fill="currentColor" viewBox="0 0 24 24">
                             <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
                         </svg>
@@ -2374,8 +2399,8 @@
                 <ul class="space-y-3">
                     <li><a href="future_architectures.html" class="text-text-secondary hover:text-accent transition-colors">Roadmap</a></li>
                     <li><a href="trust_transparency_center.html" class="text-text-secondary hover:text-accent transition-colors">Security</a></li>
-                    <li><a href="javascript:void(0)" class="text-text-secondary hover:text-accent transition-colors">Documentation</a></li>
-                    <li><a href="javascript:void(0)" class="text-text-secondary hover:text-accent transition-colors">Community</a></li>
+                    <li><a href="trinity_deep_dive.html" class="text-text-secondary hover:text-accent transition-colors">Documentation</a></li>
+                    <li><a href="research_center.html" class="text-text-secondary hover:text-accent transition-colors">Community</a></li>
                 </ul>
             </div>
         </div>
@@ -2385,9 +2410,9 @@
         <div class="flex flex-col md:flex-row items-center justify-between text-text-tertiary text-sm">
             <p>© 2025 ThirstysProjects.com. All Rights Reserved.</p>
             <div class="flex space-x-6 mt-4 md:mt-0">
-                <a href="javascript:void(0)" class="hover:text-accent transition-colors">Privacy Policy</a>
-                <a href="javascript:void(0)" class="hover:text-accent transition-colors">Terms of Service</a>
-                <a href="javascript:void(0)" class="hover:text-accent transition-colors">Cookie Policy</a>
+                <a href="trust_transparency_center.html" class="hover:text-accent transition-colors">Privacy Policy</a>
+                <a href="trust_transparency_center.html" class="hover:text-accent transition-colors">Terms of Service</a>
+                <a href="trust_transparency_center.html" class="hover:text-accent transition-colors">Cookie Policy</a>
             </div>
         </div>
     </div>
@@ -2603,7 +2628,7 @@
             // H key - Go to Home
             if (e.key === 'h' || e.key === 'H') {
                 e.preventDefault();
-                window.location.href = '../index.html';
+                window.location.href = 'index.html';
             }
         });
     }
@@ -2729,6 +2754,6 @@
         });
     }
 </script>
-<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+<script id="dhws-dataInjector" src="public/dhws-data-injector.js"></script>
 </body>
 </html>

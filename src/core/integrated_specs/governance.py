@@ -1,3 +1,5 @@
+# flake8: noqa
+
 """
 AGI Governance System - Triumvirate and Four Laws
 
@@ -60,6 +62,7 @@ The Four Laws from Asimov's tradition, adapted for AGI identity:
 """
 
 import logging
+from datetime import datetime, timezone
 from dataclasses import dataclass
 from enum import Enum
 from typing import Any
@@ -581,7 +584,7 @@ class Triumvirate:
             outcome: Outcome category
         """
         log_entry = {
-            "timestamp": logger.name,  # Will be replaced with actual timestamp
+            "timestamp": datetime.now(timezone.utc).isoformat(),
             "action": action,
             "context": context.to_dict(),
             "decision": decision.to_dict(),

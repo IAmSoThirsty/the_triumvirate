@@ -389,7 +389,7 @@
 
 @layer utilities {
   .text-balance {
-    text-wrap: balance;
+    overflow-wrap: anywhere;
   }
 
   /* Enhanced Shadow Utilities */

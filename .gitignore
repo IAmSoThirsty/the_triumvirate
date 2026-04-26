@@ -1,9 +1,9 @@
 # Dependencies
 node_modules
+.codacy/
 
 # Build outputs
 css/main.css
-public/dhws-data-injector.js
 
 # Test coverage
 coverage/
@@ -21,7 +21,6 @@ coverage/
 Thumbs.db
 
 # Package manager
-package-lock.json
 yarn.lock
 
 # Temporary files
@@ -32,3 +31,10 @@ yarn.lock
 # Environment variables
 .env
 .env.local
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+
+# Local assistant/tooling instruction artifacts
+.github/instructions/codacy.instructions.md

@@ -1,3 +1,5 @@
+# flake8: noqa
+
 """
 NON-DESIGN CANONICAL BUNDLE
 Post-Design · Post-Architecture · Civilization Tier

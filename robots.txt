@@ -1,18 +1,31 @@
 # robots.txt for The Triumvirate
-# https://thirstysprojects.com
+# https://iamsothirsty.github.io/the_triumvirate/
 
 User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://thirstysprojects.com/sitemap.xml
+Sitemap: https://iamsothirsty.github.io/the_triumvirate/sitemap.xml
 
-# Disallow admin or temporary directories if they exist
-Disallow: /tmp/
+# Disallow build and development files
+Disallow: /node_modules/
 Disallow: /.git/
+Disallow: /.github/
+Disallow: /tests/
+Disallow: /src/core/
 
-# Allow all pages
+# Disallow config files
+Disallow: /package.json
+Disallow: /package-lock.json
+Disallow: /tailwind.config.js
+Disallow: /_config.yml
+
+# Allow all public pages
 Allow: /pages/
 Allow: /css/
 Allow: /assets/
 Allow: /public/
+Allow: /js/
+
+# Crawl delay (be polite)
+Crawl-delay: 1

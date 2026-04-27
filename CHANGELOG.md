@@ -5,6 +5,19 @@ All notable changes to The Triumvirate project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.2] - 2026-04-27
+
+### CI and workflow fixes
+
+- Hardened CI workflow to run without external `uses` actions so build,
+  test, integration, CSS build, and audit gates execute reliably.
+- Removed automatic push trigger from deploy workflow to avoid redundant
+  failing checks and keep deployment as an explicit manual release action.
+
+### Versioning
+
+- Release version incremented from `1.0.1` to `1.0.2`.
+
 ## [1.0.1] - 2026-04-27
 
 ### Highlights

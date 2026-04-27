@@ -5,6 +5,23 @@ All notable changes to The Triumvirate project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2026-04-27
+
+### Highlights
+
+- Dedicated high-coverage Jest suites for `js/meta-generator.js` and `js/sw-register.js`
+- Release-readiness validation improvements and reproducible local quality gates
+
+### Changed
+
+- Release version incremented from `1.0.0` to `1.0.1`
+- Coverage verification now passes configured global thresholds for
+  statements, branches, lines, and functions
+
+### Fixed
+
+- Cleared test coverage blocker that prevented release gate completion
+
 ## [1.0.0] - 2026-01-06
 
 ### Added

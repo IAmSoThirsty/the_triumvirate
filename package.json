@@ -1,6 +1,6 @@
 {
   "name": "the-triumvirate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A comprehensive manifesto and architectural framework exploring the intersection of AI, Humanity, and Technology through ethical AI development, robust security, and transparent knowledge systems.",
   "main": "index.html",
   "dependencies": {
